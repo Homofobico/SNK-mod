@@ -1,0 +1,106 @@
+[
+
+	{
+		"name": "Heal Instantly",
+		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Cart titan"],
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234],
+        "row": 0,
+        "column": 0
+    },
+  {
+		"name": "Agility I",
+		"uniques": ["Can build [all] improvements at a [+25]% rate"],
+		"unitTypes": ["Cart titan"],
+        "column": 27,
+        "row": 1
+	},
+  {
+		"name": "Agility II",
+    "prerequisites": ["Agility I"],
+		"uniques": ["Can build [all] improvements at a [+25]% rate"],
+		"unitTypes": ["Cart titan"],
+        "column": 27,
+        "row": 2
+	},
+  {
+		"name": "Agility III",
+    "prerequisites": ["Agility II"],
+		"uniques": ["Can build [all] improvements at a [+25]% rate"],
+		"unitTypes": ["Cart titan"],
+        "column": 27,
+        "row": 3
+	},
+  {
+		"name": "Ability I",
+		"uniques": ["Can carry [1] extra [Land] units"],
+		"unitTypes": ["Cart titan"],
+        "column": 28,
+        "row": 1
+	},
+   {
+		"name": "Ability II",
+     "prerequisites": ["Ability I"],
+		"uniques": ["Can carry [1] extra [Land] units"],
+		"unitTypes": ["Cart titan"],
+        "column": 28,
+        "row": 2
+	},
+   {
+		"name": "Ability III",
+     "prerequisites": ["Ability II"],
+		"uniques": ["Can carry [1] extra [Land] units"],
+		"unitTypes": ["Cart titan"],
+        "column": 28,
+        "row": 3
+	},
+  {
+		"name": "Blitz",
+		"prerequisites": ["Shock III","Drill III","Ability III","Agility III"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Cart titan"],
+        "column": 6,
+        "row": 4
+	},
+  	{
+		"name": "Medic",
+		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II","Agility I", "Ability I"],
+		"uniques": ["All adjacent units heal [+5] HP when healing", "[-50]% weight to this choice for AI decisions"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Cart titan"],
+        "column": 10, // after scout base
+        "row": 1
+	},
+	{
+		"name": "Medic II",
+		"prerequisites": ["Medic"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Cart titan"],
+        "column": 10,
+        "row": 2
+	},
+  {
+		"name": "Woodsman",
+		"prerequisites": ["Shock III","Drill III","Agility I","Ability I"],
+		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
+		"unitTypes": ["Sword","Gunpowder","Cart titan"],
+        "column": 6,
+        "row": 5
+	},
+  {
+		"name": "March",
+		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III","Ability III","Agility III"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted","Cart titan"],
+        "column": 10,
+        "row": 3
+	},
+  {
+		"name": "Sentry",
+		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I","Ability II","Agility II"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water","Cart titan"],
+        "column": 24,
+        "row": 4
+	},
+]
