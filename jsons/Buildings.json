@@ -1,13 +1,12 @@
 
 [
   {
-		"name": "Monumento a Rateii",
-		"culture": 3,
-		"cost": 40,
-	        "uniqueTo": "Los pendemaxx (Rateii jugala bien te lo rogamos todos)",
-		"hurryCostModifier": 40,
-		"maintenance": 1,
-    "replaces": "Monument",
-		"uniques": ["Destroyed when the city is captured"]
-  }
+	
+		"name": "Cart titan",
+		"isWonder": true,
+        "uniques": ["Free Cart titan appears"],
+		"requiredTech": "Horseback riding",
+		"quote": "A quadrupedal titan with immense endurance, useful for long missions and carrying artillery."
+
+  },
 ]
