@@ -1,1 +1,21 @@
+[
+{
+		"name": "Cart titan",
+		"unitType": "Cart titan",
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "Unbuildable", "Uncapturable", "[+500]% Strength <vs [Barbarian] units>"],
+    "movement": 5,
+    "strenght": 15,
+	},
 
+
+
+
+
+
+
+
+  
+
+
+
+]
