@@ -5,7 +5,7 @@
 },
          {
         "name": "Scout",
-        "movementType": "Land",
+        "movementType": "Air",
         "uniques": ["Aircraft"]
     },
  
