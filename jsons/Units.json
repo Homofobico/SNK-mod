@@ -4,7 +4,7 @@
 		"replaces": "Warrior",
 		"uniqueTo": "Babylon",
 		"unitType": "Cart titan",
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "Unbuildable", "Uncapturable", "[+500]% Strength <vs [Barbarian] units>", "Can carry [3] [carriable] units"],
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "Unbuildable", "Uncapturable", "[+500]% Strength <vs [Barbarian] units>", "Can carry [3] [Aircraft] units"],
     "movement": 5,
     "strength": 15,
 	},
