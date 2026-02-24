@@ -1,1 +1,13 @@
 
+[
+  {
+		"name": "Monumento a Rateii",
+		"culture": 3,
+		"cost": 40,
+	        "uniqueTo": "Los pendemaxx (Rateii jugala bien te lo rogamos todos)",
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+    "replaces": "Monument",
+		"uniques": ["Destroyed when the city is captured"]
+  }
+]
