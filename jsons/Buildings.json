@@ -4,7 +4,7 @@
 	
 		"name": "Cart titan",
 		"isWonder": true,
-        "uniques": ["Free Cart titan appears"],
+        "uniques": ["Free [Cart titan] appears"],
 		"requiredTech": "Horseback riding",
 		"quote": "A quadrupedal titan with immense endurance, useful for long missions and carrying artillery."
 
