@@ -3,7 +3,11 @@
         "name": "Cart titan",
         "movementType": "Land"
 },
-        
+         {
+        "name": "Scout",
+        "movementType": "Land",
+        "Uniques": ["carriable"]
+    },
  
 
 
