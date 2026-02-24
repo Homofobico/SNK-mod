@@ -1,7 +1,7 @@
 [
 {
         "name": "Cart titan",
-        "movementType": "Land"
+        "movementType": "Land","Water"
 },
          {
         "name": "Scout",
