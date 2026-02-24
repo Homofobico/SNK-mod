@@ -4,7 +4,7 @@
 		"unitType": "Cart titan",
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "Unbuildable", "Uncapturable", "[+500]% Strength <vs [Barbarian] units>", "Can carry [3] [Land] units"],
     "movement": 5,
-    "strenght": 15,
+    "strength": 15,
 	},
 
 
