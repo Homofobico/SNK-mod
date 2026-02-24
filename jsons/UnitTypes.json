@@ -6,7 +6,7 @@
          {
         "name": "Scout",
         "movementType": "Land",
-        "Uniques": ["carriable"]
+        "uniques": ["carriable"]
     },
  
 
